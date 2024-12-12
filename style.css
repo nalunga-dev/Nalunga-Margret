@@ -18,6 +18,7 @@ body {
 @media (max-width: 1090px) {
   .introduction {
     flex-direction: column;
+    padding: 1rem;
   }
 }
 .introduction .data {
@@ -115,18 +116,19 @@ body {
   align-items: center;
   justify-content: center;
 }
-@media (max-width: 1080px) {
+@media (max-width: 1090px) {
   .introduction .profile {
-    margin: auto;
     width: 80%;
+    margin: auto;
+    padding: 2rem;
   }
 }
 .introduction .profile .praying {
   width: 80%;
 }
-@media (max-width: 1080px) {
+@media (max-width: 1090px) {
   .introduction .profile .praying {
-    width: 100%;
+    width: 63%;
   }
 }
 .introduction .profile .photo {

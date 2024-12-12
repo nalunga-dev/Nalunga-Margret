@@ -6,6 +6,7 @@
   height: 60vh;
   @media (max-width: 1090px) {
     flex-direction: column;
+    padding: 1rem;
   }
   .data {
     background-color: #0d0d0d;
@@ -94,21 +95,16 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    @media (max-width: 1080px) {
-      margin: auto;
+    @media (max-width: 1090px) {
       width: 80%;
+      margin: auto;
+      padding: 2rem;
     }
-
     .praying {
       width: 80%;
-      @media (max-width: 1080px) {
-        width: 100%;
+      @media (max-width: 1090px) {
+        width: 63%;
       }
-      // @media (max-width: 758px) {
-      //   width: 40%;
-      //   align-items: center;
-      //   justify-content: center;
-      // }
     }
     .photo {
       width: 100%;
