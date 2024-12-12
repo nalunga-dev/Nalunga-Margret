@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Mona+Sans:ital,wght@0,200..900;1,200..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+body {
+  max-width: 1054px;
+  min-height: 100vh;
+  margin: auto;
+  background-color: #0a0a0a;
+  margin-top: 4rem;
+  font-family: "Roboto", serif;
+  color: white;
+}
+
+.introduction {
+  border-radius: 3rem;
+  display: flex;
+  gap: 1rem;
+  height: 60vh;
+}
+@media (max-width: 1090px) {
+  .introduction {
+    flex-direction: column;
+  }
+}
+.introduction .data {
+  background-color: #0d0d0d;
+  border: 1px solid rgba(46, 45, 45, 0.809);
+  width: 65%;
+  display: flex;
+  padding: 2rem;
+  flex-direction: column;
+  border-radius: 3rem;
+}
+@media (max-width: 1090px) {
+  .introduction .data {
+    width: 80%;
+    margin: auto;
+  }
+}
+@media (max-width: 758px) {
+  .introduction .data {
+    padding: 2rem;
+  }
+}
+.introduction .data1 {
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 806px) {
+  .introduction .data1 {
+    flex-direction: column;
+  }
+}
+.introduction .happy {
+  width: 35px;
+}
+.introduction .man {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.introduction .milka {
+  display: flex;
+  gap: 0.5rem;
+}
+.introduction .web {
+  color: gray;
+}
+.introduction .social {
+  display: flex;
+  gap: 0.4rem;
+  align-items: center;
+}
+.introduction .bxl-twitter {
+  color: white;
+  font-size: 1.5rem;
+}
+.introduction .bxl-youtube {
+  color: white;
+  font-size: 1.5rem;
+}
+.introduction .twit {
+  background-color: #0d0d0d;
+  border-radius: 0.8rem;
+  padding: 0.5rem;
+  border: 1px solid rgba(46, 45, 45, 0.809);
+}
+.introduction .tube {
+  background-color: #0d0d0d;
+  border-radius: 0.8rem;
+  padding: 0.5rem;
+  border: 1px solid rgba(46, 45, 45, 0.809);
+}
+.introduction .touch {
+  background-color: #0d0d0d;
+  border-radius: 0.8rem;
+  padding: 0.8rem;
+  border: 1px solid rgba(46, 45, 45, 0.809);
+  color: white;
+}
+.introduction .obssesed {
+  font-size: 2.5rem;
+  margin: auto 0;
+  padding: 0;
+}
+.introduction .world {
+  font-size: 1.1rem;
+  color: #a0a0a0;
+}
+.introduction .profile {
+  background-color: #0d0d0d;
+  border: 1px solid rgba(46, 45, 45, 0.809);
+  width: 35%;
+  border-radius: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 1080px) {
+  .introduction .profile {
+    margin: auto;
+    width: 80%;
+  }
+}
+.introduction .profile .praying {
+  width: 80%;
+}
+@media (max-width: 1080px) {
+  .introduction .profile .praying {
+    width: 100%;
+  }
+}
+.introduction .profile .photo {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=style.css.map */
