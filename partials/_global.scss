@@ -11,8 +11,13 @@
     margin: auto;
     background-color: #0a0a0a;
     // margin-top: 4rem;
-    padding-top: 1rem;
+    // padding-top: 1rem;
+    overflow-x: hidden;
     font-family: "Roboto", serif;
     color: white;
+    @media (max-width: 1150px) {
+      width: 100%;
+      margin: auto;
+    }
   }
 }

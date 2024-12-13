@@ -1,10 +1,7 @@
 .Brand {
-  width: 80%;
-  margin: auto;
-  margin-top: 2rem;
-  // padding: 3rem;
+  padding: 1rem;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(410px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
   gap: 1rem;
   // background-color: red;
 }
