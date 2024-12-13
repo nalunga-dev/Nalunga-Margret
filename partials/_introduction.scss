@@ -25,13 +25,13 @@
       // padding: 3rem;
       gap: 2rem;
     }
-    @media (max-width: 758px) {
-      // padding: 2rem;
-    }
   }
   .data1 {
     display: flex;
     justify-content: space-between;
+    @media (max-width: 844px) {
+      flex-direction: column;
+    }
   }
   .happy {
     width: 35px;

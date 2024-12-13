@@ -51,6 +51,11 @@
   display: flex;
   justify-content: space-between;
 }
+@media (max-width: 844px) {
+  .introduction .data1 {
+    flex-direction: column;
+  }
+}
 .introduction .happy {
   width: 35px;
 }
@@ -332,7 +337,7 @@
 }
 
 .Brand {
-  width: 100%;
+  width: 80%;
   margin: auto;
   margin-top: 2rem;
   display: grid;
