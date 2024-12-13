@@ -1,10 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Mona+Sans:ital,wght@0,200..900;1,200..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   max-width: 1054px;
   min-height: 100vh;
   margin: auto;
   background-color: #0a0a0a;
-  margin-top: 4rem;
+  padding-top: 1rem;
   font-family: "Roboto", serif;
   color: white;
 }
@@ -13,7 +20,6 @@ body {
   border-radius: 3rem;
   display: flex;
   gap: 1rem;
-  height: 60vh;
 }
 @media (max-width: 1090px) {
   .introduction {
@@ -103,6 +109,12 @@ body {
   margin: auto 0;
   padding: 0;
 }
+@media (max-width: 490px) {
+  .introduction .obssesed {
+    font-size: 1rem;
+    color: aqua;
+  }
+}
 .introduction .world {
   font-size: 1.1rem;
   color: #a0a0a0;
@@ -136,4 +148,208 @@ body {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.best {
+  text-align: center;
+  color: gray;
+  padding: 2rem;
+}
+
+.intitute {
+  color: white;
+  display: flex;
+  align-items: center;
+  overflow-x: auto;
+  width: 100%;
+  margin: auto;
+  padding: 2rem;
+  gap: 2rem;
+  scrollbar-width: none;
+}
+@media (max-width: 1090px) {
+  .intitute {
+    width: 90%;
+    margin: auto;
+  }
+}
+.intitute .milano {
+  display: flex;
+  gap: 0.4rem;
+  align-items: center;
+}
+.intitute .milano .milano1 {
+  background-color: white;
+  color: black;
+  padding: 0.4rem;
+  font-weight: normal;
+  font-size: 1rem;
+}
+.intitute .luminus {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+@media (max-width: 760px) {
+  .intitute .luminus {
+    display: none;
+  }
+}
+.intitute .luminus .lumi {
+  font-size: 1rem;
+}
+.intitute .luminus .bx-spa {
+  color: white;
+  font-size: 1.5rem;
+}
+.intitute .amster {
+  display: flex;
+  gap: 0.4rem;
+  align-items: center;
+}
+@media (max-width: 760px) {
+  .intitute .amster {
+    display: none;
+  }
+}
+.intitute .amster .bx-cloud-snow {
+  color: white;
+  font-size: 1.5rem;
+}
+.intitute .amster .dam {
+  color: white;
+  font-size: 1.5rem;
+}
+.intitute .there {
+  font-family: "Instrument Serif", serif;
+}
+@media (max-width: 760px) {
+  .intitute .there {
+    display: none;
+  }
+}
+
+.different {
+  background-color: #0d0d0d;
+  border: 1px solid rgba(46, 45, 45, 0.809);
+  border-radius: 3rem;
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 1150px) {
+  .different {
+    flex-direction: column;
+    margin: auto;
+    width: 80%;
+    padding: 2rem;
+    gap: 3rem;
+    height: 80vh;
+  }
+}
+@media (max-width: 481px) {
+  .different {
+    height: 90%;
+    margin: auto;
+    gap: 1rem;
+  }
+}
+.different .picture {
+  width: 37%;
+  height: 100%;
+}
+@media (max-width: 1150px) {
+  .different .picture {
+    width: 100%;
+    height: 50%;
+  }
+}
+@media (max-width: 481px) {
+  .different .picture {
+    height: 40%;
+  }
+}
+.different .picture .Framer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+@media (max-width: 1075px) {
+  .different .picture .Framer {
+    width: 100%;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.different .picture .man {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.different .information {
+  width: 63%;
+}
+@media (max-width: 1150px) {
+  .different .information {
+    width: 100%;
+    height: 50%;
+  }
+}
+@media (max-width: 481px) {
+  .different .information {
+    height: 60%;
+  }
+}
+.different .information .diff {
+  font-size: 2.5rem;
+}
+@media (max-width: 1150px) {
+  .different .information .diff {
+    font-size: 2rem;
+  }
+}
+.different .information .digital {
+  font-size: 1.2rem;
+}
+@media (max-width: 1150px) {
+  .different .information .digital {
+    font-size: 1rem;
+    width: 100%;
+  }
+}
+.different .information .Browse {
+  color: white;
+  background-color: #0d0d0d;
+  border-radius: 0.8rem;
+  font-size: 1rem;
+  padding: 0.7rem;
+  border: 1px solid rgba(46, 45, 45, 0.809);
+}
+
+.Brand {
+  width: 100%;
+  margin: auto;
+  margin-top: 2rem;
+  padding: 3rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 1rem;
+}
+
+.Branda {
+  border: 1px solid rgba(46, 45, 45, 0.809);
+  border-radius: 3rem;
+}
+.Branda .lian {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 3rem;
 }/*# sourceMappingURL=style.css.map */

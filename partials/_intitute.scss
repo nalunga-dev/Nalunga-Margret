@@ -1,0 +1,67 @@
+.intitute {
+  // background-color: rgb(220, 7, 7);
+  color: white;
+  display: flex;
+  align-items: center;
+  overflow-x: auto;
+  width: 100%;
+  margin: auto;
+  padding: 2rem;
+  // background-color: red;
+  gap: 2rem;
+  scrollbar-width: none;
+  @media (max-width: 1090px) {
+    width: 90%;
+    margin: auto;
+  }
+  .milano {
+    display: flex;
+    gap: 0.4rem;
+    align-items: center;
+
+    .milano1 {
+      background-color: white;
+      color: black;
+      padding: 0.4rem;
+      font-weight: normal;
+      font-size: 1rem;
+    }
+  }
+  .luminus {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    @media (max-width: 760px) {
+      display: none;
+    }
+    .lumi {
+      font-size: 1rem;
+    }
+    .bx-spa {
+      color: white;
+      font-size: 1.5rem;
+    }
+  }
+  .amster {
+    display: flex;
+    gap: 0.4rem;
+    align-items: center;
+    @media (max-width: 760px) {
+      display: none;
+    }
+    .bx-cloud-snow {
+      color: white;
+      font-size: 1.5rem;
+    }
+    .dam {
+      color: white;
+      font-size: 1.5rem;
+    }
+  }
+  .there {
+    font-family: "Instrument Serif", serif;
+    @media (max-width: 760px) {
+      display: none;
+    }
+  }
+}
