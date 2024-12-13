@@ -22,14 +22,11 @@
     @media (max-width: 1090px) {
       width: 80%;
       margin: auto;
-    }
-    @media (max-width: 879px) {
-      flex-direction: column;
-      height: 40%;
-      gap: 3rem;
+      // padding: 3rem;
+      gap: 2rem;
     }
     @media (max-width: 758px) {
-      padding: 2rem;
+      // padding: 2rem;
     }
   }
   .data1 {

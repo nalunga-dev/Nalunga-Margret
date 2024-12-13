@@ -5,8 +5,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-body {
+* body {
   max-width: 1054px;
   min-height: 100vh;
   margin: auto;
@@ -27,6 +26,11 @@ body {
     padding: 1rem;
   }
 }
+@media (max-width: 603px) {
+  .introduction {
+    gap: 2rem;
+  }
+}
 .introduction .data {
   background-color: #0d0d0d;
   border: 1px solid rgba(46, 45, 45, 0.809);
@@ -40,21 +44,12 @@ body {
   .introduction .data {
     width: 80%;
     margin: auto;
-  }
-}
-@media (max-width: 758px) {
-  .introduction .data {
-    padding: 2rem;
+    gap: 2rem;
   }
 }
 .introduction .data1 {
   display: flex;
   justify-content: space-between;
-}
-@media (max-width: 806px) {
-  .introduction .data1 {
-    flex-direction: column;
-  }
 }
 .introduction .happy {
   width: 35px;
@@ -109,15 +104,19 @@ body {
   margin: auto 0;
   padding: 0;
 }
-@media (max-width: 490px) {
+@media (max-width: 603px) {
   .introduction .obssesed {
-    font-size: 1rem;
-    color: aqua;
+    font-size: 1.5rem;
   }
 }
 .introduction .world {
   font-size: 1.1rem;
   color: #a0a0a0;
+}
+@media (max-width: 603px) {
+  .introduction .world {
+    font-size: 0.8rem;
+  }
 }
 .introduction .profile {
   background-color: #0d0d0d;
@@ -336,9 +335,8 @@ body {
   width: 100%;
   margin: auto;
   margin-top: 2rem;
-  padding: 3rem;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(410px, 1fr));
   gap: 1rem;
 }
 
