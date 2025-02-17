@@ -12,14 +12,29 @@
 }
 .Branda {
   // background-color: aqua;
-  border: 1px solid rgba(46, 45, 45, 0.809);
   border-radius: 3rem;
+  padding-bottom: 4rem;
+  position: relative;
+  .info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    background-color: #11070dbf;
+    font-weight: bolder;
+    color: white;
+    position: absolute;
+    // font-size: 1.3rem;
+    padding: 0.8rem;
+    bottom: 1%;
+    left: 10%;
+    border-radius: 0.8rem;
+  }
 
   .lian {
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 3rem;
-    margin: auto;
+    border: 1px solid rgba(46, 45, 45, 0.809);
   }
 }
